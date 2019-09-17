@@ -9,7 +9,7 @@ import lejos.robotics.subsumption.Behavior;
 /**
  * Created by sa16566 on 26/01/2018.
  */
-public class move2 {
+public class MoveAndAvoidObstacles {
     public static void main(String[] args) {
         //moveThread.run(); ...........
         moveClass.run();
