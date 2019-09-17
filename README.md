@@ -78,10 +78,17 @@ This gives it control when the navigator has reached the objective location
 then search the area for the colour red in case the robot missed it.
 Below I have included images of the drawn trajectories from two runs of the
 robot’s task.
+
+![](readmeImages/roboticsPic7.png)
+
+![](readmeImages/roboticsPic8.png)
+
 The trajectories are not exactly the same, because the obstacle was not
 present on the return journey of the 2nd run, but the same general shape of
 the movement can be seen.
-Obstacle Avoidance Code
+
+## Obstacle Avoidance Code
+
 When the robot runs into the obstacle, the following code is executed. It
 simply stops the navigation, rotates the robot around the obstacle, and
 continues to draw the trajectory. Once it’s finished, the robot can then
